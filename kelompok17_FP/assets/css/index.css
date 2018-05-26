@@ -44,7 +44,7 @@
   height: 429px;
 }
 
-/* -------------------- Slideshow ----------------- */
+/* ########################## Slideshow ############################# */
 
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -114,4 +114,28 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+/* ###################################### Container ################################*/
+
+.container{
+  display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.adopt_me{
+  background-image: url(adopt_me.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.product{
+  background-image: url(product.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+.contact{
+  background-image: url(contact.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
 }
