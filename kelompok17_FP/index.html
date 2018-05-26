@@ -7,16 +7,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
   </head>
   <body>
-    <div class="header">
-      <div class="col-md-7">
-        <div class="logo"></div>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div id="logo">
+        </div>
       </div>
-      <div class="col-md-1" id="home"></div>
-      <div class="col-md-1" id="article"></div>
-      <div class="col-md-1" id="about"></div>
+      <div class="header">
+        <div class="col-md-2">
+          <a href="index.html">HOME</a>
+        </div>
+        <div class="col-md-2">
+          <a href="index.html">ARTICLE</a>
+        </div>
+        <div class="col-md-2">
+          <a href="index.html">ABOUT</a>
+        </div>
       </div>
+  </div>
     <!--  <div class="col-md-12" id="slide"></div> -->
 
 <!-- ...................... Slideshow .......................... -->
@@ -37,7 +48,7 @@
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="assets/css/slide1.PNG" style="width:100%">
+  <img src="assets/img/slide1.PNG" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
 
@@ -49,36 +60,11 @@
   <span class="dot"></span>
   <span class="dot"></span>
 </div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 5000); // berubah setiap 5 detik
-}
-</script>
+  <script type="text/javascript" src="assets/js/slideshow.js"></script>
 
 <!-- ..............Container ...................... -->
 
-  <div class="container">
-    <div class="adopt_me"></div>
-    <div class="product"></div>
-    <div class="contact"></div>
-  </div>
+
 
   </body>
 </html>

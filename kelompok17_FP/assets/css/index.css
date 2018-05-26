@@ -1,47 +1,27 @@
-.header{
-
-}
-.logo{
-  margin-left: 180px;
-  margin-top: 20px;
+#logo{
+  margin: auto;
   background-image: url(logo.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 250px;
   height: 100px;
 }
-#home,#article,#about{
-  margin-top: 50px;
-  margin-left: 10px;
+
+.header{
+  margin-top: 30px;
 }
-#home{
-  background-image: url(text-home.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 80px;
-  height: 30px;
+a:link, a:visited {
+    font-size: 25px;
+    font-family: 'Aclonica', sans-serif;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-#article{
-  background-image: url(text-article.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 95px;
-  height: 30px;
-}
-#about{
-  background-image: url(text-about.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 85px;
-  height: 30px;
-}
-#slide{
-  margin-left: 180px;
-  background-image: url(slide1.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 856px;
-  height: 429px;
+a:hover, a:active {
+    background-color: red;
+    text-decoration: none;
 }
 
 /* ########################## Slideshow ############################# */
@@ -117,25 +97,3 @@ img {vertical-align: middle;}
 }
 
 /* ###################################### Container ################################*/
-
-.container{
-  display: grid;
-  grid: 150px / auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-}
-.adopt_me{
-  background-image: url(adopt_me.png);
-  background-repeat: no-repeat;
-  background-size: 200px;
-}
-.product{
-  background-image: url(product.png);
-  background-repeat: no-repeat;
-  background-size: 150px;
-}
-.contact{
-  background-image: url(contact.png);
-  background-repeat: no-repeat;
-  background-size: 100px;
-}
