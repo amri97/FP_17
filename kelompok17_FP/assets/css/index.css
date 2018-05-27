@@ -38,6 +38,9 @@
 #thumbnail{
   margin-top: 50px;
 }
+#Content{
+  width: 100%;
+}
 #content:link, #content:visited {
     font-size: 25px;
     font-family: 'Aclonica', sans-serif;
@@ -52,6 +55,8 @@
     text-decoration: none;
 }
 #content_title{
+  font-size: 25px;
+  font-family: 'Aclonica', sans-serif;
   color:red;
 }
 #content_text{
@@ -89,7 +94,11 @@
 
 /* ######################### video #################### */
 #thumbnail_video{
+  margin-left: 15px;
+  width: 100%;
   background-color: lightgray;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 video {
     width: 100%;
@@ -97,6 +106,10 @@ video {
 }
 
 /* ######################### footer #################### */
-.panel-footer{
+#footer{
+  margin-top: 25px;
+  padding-top: 5px;
+  width: 100%;
   background-color: black;
+  color: white;
 }
