@@ -18,6 +18,8 @@
   margin-top: 20px;
 }
 
+/* ................................ Menu ................... */
+
 #menu:link, #menu:visited {
     font-size: 25px;
     font-family: 'Aclonica', sans-serif;
@@ -32,6 +34,10 @@
     text-decoration: none;
 }
 
+/* ................................ Content ............................. */
+#thumbnail{
+  margin-top: 50px;
+}
 #content:link, #content:visited {
     font-size: 25px;
     font-family: 'Aclonica', sans-serif;
@@ -53,6 +59,9 @@
   font-size: 15px;
   font-family: 'Muli', sans-serif;
 }
+
+/* ....................................... Responsive ......................................... */
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -61,6 +70,33 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
 /* ###################################### Container ################################*/
 
 /* ######################### video #################### */
+#thumbnail_video{
+  background-color: lightgray;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* ######################### footer #################### */
+.panel-footer{
+  background-color: black;
+}
