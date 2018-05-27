@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   </head>
   <body>
+
+<!-- ............................... Navgation Bar ........................... -->
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a id="" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a id="navbar" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- .............................. Menu .................................... -->
+
     <div class="container">
     <div class="row">
       <div class="col-md-5">
@@ -18,49 +33,54 @@
       </div>
       <div class="header">
         <div class="col-md-2">
-          <a href="index.html">HOME</a>
+          <a id="menu" href="index.html">HOME</a>
         </div>
         <div class="col-md-2">
-          <a href="index.html">ARTICLE</a>
+          <a id="menu" href="index.html">ARTICLE</a>
         </div>
         <div class="col-md-2">
-          <a href="index.html">ABOUT</a>
+          <a id="menu" href="index.html">ABOUT</a>
         </div>
       </div>
   </div>
-    <!--  <div class="col-md-12" id="slide"></div> -->
 
-<!-- ...................... Slideshow .......................... -->
+<!-- ...................... Carousel/Slideshow .......................... -->
 
-<div class="slideshow-container">
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="assets/css/slide1.PNG" style="width:100%">
-  <div class="text">Caption Text 1</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="assets/img/slide1.png" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="assets/img/slide1.png" alt="Chicago" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="assets/img/slide1.png" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="assets/css/slide1.PNG" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="assets/img/slide1.PNG" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-  <script type="text/javascript" src="assets/js/slideshow.js"></script>
 
 <!-- ..............Container ...................... -->
 
