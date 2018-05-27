@@ -1,4 +1,3 @@
-
 #navbar{
   padding-right: 100px;
 }
@@ -39,3 +38,25 @@
 }
 
 /* ###################################### Container ################################*/
+#adopt_me,#product,#contact{
+  border: 1px solid black;
+  width: 100%;
+  height: 300px;
+  margin-top: 25px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 30%;
+}
+#adopt_me{
+  background-image: url(adopt_me.png);
+}
+#product{
+  background-image: url(product.png);
+}
+#contact{
+  background-image: url(contact.png);
+}
+#apc_text{
+  padding-top: 50px;
+}
+/* ######################### video #################### */
