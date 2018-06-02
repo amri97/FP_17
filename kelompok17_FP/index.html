@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Aclonica|Muli" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/btn_login.css">
   </head>
   <body>
 <!-- ............................... Navgation Bar ........................... -->
@@ -16,8 +18,77 @@
   <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav navbar-right">
-      <li><a id="" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a id="navbar" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a id="tbl_signup" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <div class="container">
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+        <li><a id="tbl_login" href="#">
+          <span class="glyphicon glyphicon-log-in"></span> Login</a>
+      </li>
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">LOGIN MEMBER</h1>
+        </div>
+        <div class="modal-body">
+
+<!-- .................... Form login .......................... -->
+
+          <form id="form_login" action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+            <p>Doesn't have account? <a href="">Register Here</a></p>
+            <div align="center">
+              <button type="submit" class="btn btn-default1">Login</button>
+            </div>
+          </form>
+
+<!-- ....................... garis or................................... -->
+<div id="bts_form" class="row">
+  <div id="grs_atau" class="col-md-5">
+  </div>
+  <div class="col-md-2">
+    <p id="grs_or">or</p>
+  </div>
+  <div id="grs_atau" class="col-md-5">
+  </div>
+</div>
+
+<!-- ................................. Api Google+, facebook, twitter ............................................... -->
+<p align="center">Login with Social Media</p>
+<div class="col">
+<a href="#" class="fb btn_sos">
+<i class="fa fa-facebook fa-fw"></i> Login with Facebook
+</a>
+<a href="#" class="twitter btn_sos">
+<i class="fa fa-twitter fa-fw"></i> Login with Twitter
+</a>
+<a href="#" class="google btn_sos"><i class="fa fa-google fa-fw">
+</i> Login with Google+
+</a>
+</div>
+</div>
+        <div class="modal-footer">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
     </ul>
   </div>
 </nav>
