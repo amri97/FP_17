@@ -1,0 +1,24 @@
+.rgs-form-control {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+}
+#bts_register{
+  height: 5px;
+  background-color: red;
+}
+#reg_title{
+  font-size: 25px;
+  font-family: 'Aclonica', sans-serif;
+}
+#reg_head{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+#btn_signup{
+  font-size: 25px;
+  font-family: 'Aclonica', sans-serif;
+}
+#check-agree{
+  align-items: center;
+}

@@ -7,10 +7,10 @@
 /* ........................... Header ..................... */
 
 #logo{
-  margin: auto;
-  background-image: url(logo.png);
+  margin:auto;
+  background-image: url(LOGO_1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 65%;
   width: 250px;
   height: 100px;
 }
