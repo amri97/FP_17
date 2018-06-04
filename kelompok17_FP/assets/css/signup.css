@@ -22,3 +22,9 @@
 #check-agree{
   align-items: center;
 }
+.form_register{
+  margin-top: 20px;
+}
+label{
+  font-size: 12px;
+}
