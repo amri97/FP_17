@@ -1,6 +1,22 @@
+#pro_logo{
+  margin:auto;
+  background-image: url(LOGO_shop.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  width: 250px;
+  height: 107px;
+}
 #pro_garis{
   height: 5px;
   background-color: red;
+}
+#btn_category{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  border: 2px solid black;
+  padding-bottom: 1px;
+  font-size: 30px;
+  cursor: pointer;
 }
 .sidenav {
     margin-top: 5%;

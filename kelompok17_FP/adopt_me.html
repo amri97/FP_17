@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/btn_login.css">
     <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/adopt_me.css">
+    <link rel="stylesheet" href="assets/css/dropdown.css">
   </head>
   <body>
 <!-- ............................... Navgation Bar ........................... -->
@@ -101,7 +103,7 @@
     <div class="container">
     <div class="row">
       <div class="col-md-5">
-        <a href="product.html" target=""><div id="pro_logo"></div></a>
+        <a href="product.html" target=""><div id="adopt_logo"></div></a>
       </div>
       <div class="header">
         <div class="col-md-2">
@@ -120,13 +122,24 @@
 <!-- .......................... garis .............................. -->
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">Cage</a>
-    <a href="#">Shampoo</a>
-    <a href="#">Food</a>
-    <a href="#">Cat Toys</a>
+    <div class="dropdown">
+      <a class="dropbtn">Gender</a>
+      <div class="dropdown-content">
+        <a href="#">Male</a>
+        <a href="#">Female</a>
+      </div>
+    </div><br>
+    <div class="dropdown">
+      <a class="dropbtn">Age</a>
+      <div class="dropdown-content">
+        <a href="#">Kitten</a>
+        <a href="#">Young</a>
+        <a href="#">Adult</a>
+      </div>
+    </div>
   </div>
   <div class="pro-sidnav">
-      <span id="btn_category" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="assets/img/category.png" alt="">Category</span>
+      <span id="btn_tag" style="cursor:pointer" onclick="openNav()"><img src="assets/img/tag.png" alt=""></span>
   </div>
   <script type="text/javascript" src="assets/js/sidenav.js"></script>
 <!-- .......................... garis .............................. -->

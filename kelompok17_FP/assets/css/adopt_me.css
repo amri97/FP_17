@@ -1,0 +1,14 @@
+#adopt_logo{
+  margin:auto;
+  background-image: url(LOGO_adopt.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  width: 250px;
+  height: 107px;
+}
+
+.panel-default > .panel-heading {
+    color: white;
+    background-color: black;
+    border-color:  black;
+}
