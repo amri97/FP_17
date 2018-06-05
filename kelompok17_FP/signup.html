@@ -120,67 +120,82 @@
 <div id="" class="row">
   <hr id="bts_register">
 
-  <div class="" algin="center">
-    <p id="reg_title" align="center">Personal Account Registration</p>
-    <p id="reg_head" align="center">Please fill in the data below with honest and accurate information</p>
+  <div class="" align="center">
+    <p id="reg_title" >Personal Account Registration</p>
+    <p id="reg_head" >Please fill in the data below with honest and accurate information</p>
   </div>
   <!-- ..................... form ............................ -->
+  <div align="center">
 <div class="container">
   <div class="form_register" align="center">
   <form class="form-inline" action="index.html">
       <!-- .................. Full Name ................................. -->
       <div class="col-md-6">
-        <div class="form-group">
-          <input type="text" class="rgs-form-control" id="full_name" placeholder="your full name" name="full_name">
-        </div>
+        <div >
+          <div class="form-group">
+            <input type="text" class="rgs-form-control" id="full_name" placeholder="your full name" name="full_name" required>
+          </div>
+        </div><br>
       </div>
       <!-- .................. username ................................. -->
       <div class="col-md-6">
+        <div >
         <div class="form-group">
-          <input type="text" class="rgs-form-control" id="username" placeholder="username for login" name="username"><br>
-          <label for="username">Be sure to remember the username.</label>
+          <input type="text" class="rgs-form-control" id="username" placeholder="username for login" name="username" maxlength="15" required>
         </div>
-      </div>
+      </div><br>
+    </div>
       <!-- .................. primary phone number ................................. -->
       <div class="col-md-6">
+        <div >
         <div class="form-group">
-          <input type="text" class="rgs-form-control" id="phn_number" placeholder="Phone Number ex : 081234567" name="phn_number">
+          <input type="text" class="rgs-form-control" id="phn_number" placeholder="Phone Number ex : 081234567" name="phn_number" onkeypress="phnNumber2()" required>
+          <i id="phn_number1"></i>
+          <script type="text/javascript" src="assets/js/validation.js"></script>
         </div>
+        </div><br>
       </div>
       <!-- .................. alternative phone number ................................. -->
       <div class="col-md-6">
+        <div >
         <div class="form-group">
           <input type="text" class="rgs-form-control" id="alt_number" placeholder="Alternative phone number" name="alt_number">
-          <label for="alt_number">We will contact this number if the primary number was lost.</label>
         </div>
-      </div>
+      </div><br>
+    </div>
       <!-- ............................ email address ................................. -->
       <div class="col-md-6">
-        <div class="form-group">
-          <input type="email" class="rgs-form-control" id="email" placeholder="Enter email" name="email">
-        </div>
+        <div >
+          <div class="form-group">
+            <input type="email" class="rgs-form-control" id="email" placeholder="Enter email" name="email" required>
+          </div>
+        </div><br>
       </div>
       <!-- .................. alternative email address ................................. -->
       <div class="col-md-6">
+        <div >
         <div class="form-group">
-
           <input type="email" class="rgs-form-control" id="alt-email" placeholder="Alternative email" name="alt-email">
-          <label for="alt-email">We will contact this email if the primary email was lost.</label><br>
         </div>
+      </div><br>
       </div>
       <!-- .................. password  ................................. -->
       <div class="col-md-6">
-        <div class="form-group">
-          <label for="pwd"></label><br>
-          <input type="password" class="rgs-form-control" id="pwd" placeholder="Enter password" name="pwd">
-        </div>
+        <div >
+          <div class="form-group">
+            <label for="pwd"></label>
+            <input type="password" class="rgs-form-control" id="pwd" placeholder="Enter password" name="pwd" required>
+          </div>
+        </div><br>
       </div>
       <!-- .................. repeat password ................................. -->
       <div class="col-md-6">
+        <div >
         <div class="form-group">
-          <label for="pwd"></label><br>
-          <input type="password" class="rgs-form-control" id="pwd" placeholder="Repeat password" name="pwd">
+          <label for="pwd"></label>
+          <input type="password" class="rgs-form-control" id="pwd" placeholder="Repeat password" name="pwd" required>
         </div>
+      </div><br>
       </div>
       <!-- .............. button ................. -->
       <div align="center">
@@ -192,7 +207,6 @@
         <button id="btn_signup" type="submit" class="btn btn-default1">sign up</button>
       </div>
     </form>
-
     <div id="bts_form" class="row">
       <div id="grs_atau" class="col-md-5">
       </div>
@@ -202,6 +216,7 @@
       <div id="grs_atau" class="col-md-5">
       </div>
     </div>
+
 
     <!-- ................................. Media Social ............................................... -->
     <p align="center">Login with Social Media</p>
@@ -218,6 +233,7 @@
     </div>
 
 </div>
+  </div>
 
 <!-- .................................................... -->
   </div>

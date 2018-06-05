@@ -1,0 +1,51 @@
+#about-garis{
+  height: 5px;
+  background-color: red;
+}
+#about_title{
+  font-size: 40px;
+  font-family: 'Aclonica', sans-serif;
+}
+#about_text{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+#map{
+  width:200px;
+  height:200px;
+}
+#lokasi_title{
+  font-size: 20px;
+  font-family: 'Aclonica', sans-serif;
+}
+#lokasi_ket{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
+#lokasi_ket2{
+  font-size: 12px;
+  font-family: 'Muli', sans-serif;
+}
+#tim_title{
+  font-size: 25px;
+  font-family: 'Aclonica', sans-serif;
+}
+#tim_ich{
+  color: red;
+  font-size: 22px;
+  font-family: 'Aclonica', sans-serif;
+}
+#tim_fai{
+  color: blue;
+  font-size: 22px;
+  font-family: 'Aclonica', sans-serif;
+}
+#tim_fiki{
+  color: green;
+  font-size: 22px;
+  font-family: 'Aclonica', sans-serif;
+}
+#tim_text{
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+}
